@@ -30,6 +30,14 @@ subprojects {
 	dependencies {
 		compileOnly 'org.projectlombok:lombok:1.18.34'
 		annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
+		//Mapstruct
+		implementation 'org.mapstruct:mapstruct:1.6.3'
+		annotationProcessor 'org.mapstruct:mapstruct-processor:1.6.3'
+
+		//Binding Lombok - Mapstruct
+		implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+
 		testCompileOnly 'org.projectlombok:lombok:1.18.34'
 		testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
 	}
