@@ -17,9 +17,16 @@ allprojects {
 
 subprojects {
 	apply plugin: 'java-library'
+	apply plugin: 'io.spring.dependency-management'
 
 	group = rootProject.group
 	version = rootProject.version
+
+	dependencyManagement {
+		imports {
+			mavenBom "org.springframework.boot:spring-boot-dependencies:4.1.0"
+		}
+	}
 
 	java {
 		toolchain {

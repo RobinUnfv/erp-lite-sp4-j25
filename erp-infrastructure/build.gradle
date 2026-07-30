@@ -1,12 +1,16 @@
 // Módulo de infraestructura: persistencia, integraciones y adaptadores externos.
 dependencies {
-	implementation project(':erp-common')
+
+    //Dependencias de otros módulos
+    implementation project(':erp-common')
     implementation project(':erp-domain')
     implementation project(':erp-application')
+
     // PostgreSQL
-    implementation 'org.postgresql:postgresql:42.7.13'
-    // JPA
+    implementation 'org.postgresql:postgresql'
+    // JPA + Hibernate 6
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     // MongoDB
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
     // Redis
