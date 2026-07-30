@@ -1,4 +1,4 @@
-package com.robin.erp_lite.entity;
+package com.robin.erp_lite.persistence.jpa.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

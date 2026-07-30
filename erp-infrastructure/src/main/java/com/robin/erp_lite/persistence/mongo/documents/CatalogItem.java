@@ -1,4 +1,4 @@
-package com.robin.erp_lite.documents;
+package com.robin.erp_lite.persistence.mongo.documents;
 
 public record CatalogItem(
         String id,

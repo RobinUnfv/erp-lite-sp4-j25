@@ -1,4 +1,4 @@
-package com.robin.erp_lite.documents;
+package com.robin.erp_lite.persistence.mongo.documents;
 
 import jakarta.persistence.Id;
 import lombok.*;

@@ -1,4 +1,4 @@
-package com.robin.erp_lite.documents;
+package com.robin.erp_lite.persistence.mongo.documents;
 
 import java.math.BigDecimal;
 import java.util.List;
