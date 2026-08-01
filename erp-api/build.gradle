@@ -1,12 +1,12 @@
 plugins {
-	id 'org.springframework.boot' version '4.1.0'
-	id 'io.spring.dependency-management' version '1.1.7'
+	id 'org.springframework.boot'
 }
 
 dependencies {
+	// Spring Web solo para el módulo API
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
-	//Dependencias de otros módulos
+	// Dependencias de otros módulos
 	implementation project(':erp-common')
 	implementation project(':erp-domain')
 	implementation project(':erp-application')

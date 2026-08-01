@@ -1,2 +1,6 @@
-// Módulo de aplicación: casos de uso y orquestación.
+dependencies {
+    // Dependencias de la capa de aplicación
+    implementation project(':erp-common')
+    implementation project(':erp-domain')
+}// Módulo de aplicación: casos de uso y orquestación.
 

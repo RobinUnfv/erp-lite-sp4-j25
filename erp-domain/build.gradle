@@ -1,9 +1,5 @@
 // Módulo de dominio: entidades, value objects y reglas de negocio.
 dependencies {
-    //Dependencias de otros módulos
+    // Dependencias del dominio
     implementation project(':erp-common')
-    implementation project(':erp-application')
-    implementation project(':erp-infrastructure')
-
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 }
